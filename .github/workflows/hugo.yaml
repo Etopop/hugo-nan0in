@@ -27,7 +27,7 @@ jobs:
         - name: Deploy Web
           uses: peaceiris/actions-gh-pages@v4
           with:
-              PERSONAL_TOKEN: ${{ secrets.你的token变量名 }}
+              PERSONAL_TOKEN: ${{ secrets.TOKEN}}
               EXTERNAL_REPOSITORY: Etopop/hugo-nan0in
               PUBLISH_BRANCH: main
               PUBLISH_DIR: ./public
